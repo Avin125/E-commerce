@@ -1,0 +1,77 @@
+<!-- category -->
+<div class="container-fluid">
+    <div class="container d-flex">
+        <div class="item">
+            <a (click)="categorySearch('')">
+                <img src="https://i.postimg.cc/y6mvxvdW/Allproducts-11jpg.jpg"
+                    style="width: 100px;margin: top 15px;height: 100px" alt="">
+                <h6>All products</h6>
+            </a>
+
+        </div>
+        <div class="item">
+            <a (click)="categorySearch('1')">
+                <img src="https://i.postimg.cc/JzYGJH8Y/men.jpg" style="width: 100px;margin: top 15px;height: 100px"
+                    alt="">
+                <h6>Mens Shoes</h6>
+            </a>
+
+        </div>
+        <div class="item">
+            <a (click)="categorySearch('2')">
+                <img src="https://i.postimg.cc/BvWfdJBQ/women.jpg" style="width: 100px;margin: top 15px;height: 100px"
+                    alt="">
+                <h6>Womens Shoes</h6>
+            </a>
+
+        </div>
+        <div class="item">
+            <a (click)="categorySearch('3')">
+                <img src="https://i.postimg.cc/kX8cT9Gy/kids.jpg" style="width: 100px;margin: top 15px; height: 100px;"
+                    alt="">
+                <h6>Kids Shoes</h6>
+            </a>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5" *ngFor="let product of categoryList |searchFilter: searchItem: 'productName'">
+
+                <div class="card h-100 ">
+                    <!-- Product image-->
+                    <a href="products/view-product/{{product.id}}" style="color: black; text-decoration:none">
+                        <img class="card-img-top" style="height: 200px;" src="{{product.productImg}}" alt="..." />
+
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">{{product.productName}}</h5>
+                                <!-- Product price-->
+                                {{product.price}}
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Product actions-->
+
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <button class="btn btn-outline-dark mt-auto" (click)="addtocart(product)">Add To Cart</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</section>

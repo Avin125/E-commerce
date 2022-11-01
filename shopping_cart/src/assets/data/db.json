@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Nike mens Nike Air Max 270 React Se Running Shoe",
+      "categoryId": 1,
+      "description": "Latest Men’s Nike Running Shoe",
+      "price": "₹5,727",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/bJZcKTcm/shoes-1.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Nike",
+      "warranty": 1
+    },
+    {
+      "id": 3,
+      "productName": "Nike Womens WMNS Downshifter 11 Running Shoe",
+      "categoryId": 2,
+      "description": "Latest Womens Nike Running Shoe",
+      "price": "₹1,997 - ₹5,695",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/d109bPqz/shoes-3.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Nike",
+      "warranty": 1
+    },
+    {
+      "id": 4,
+      "productName": "Nike Mens Revolution 5 PRM Running Shoe",
+      "categoryId": 3,
+      "description": "Latest Men’s Nike Running Shoe",
+      "price": "₹1,799 - ₹3,695",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/vm6ssj3S/shoes-4.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Nike",
+      "warranty": 1
+    },
+    {
+      "id": 5,
+      "productName": "Nike Air Zoom Pegasus 37 Mens TECH Running",
+      "categoryId": 2,
+      "description": "Latest Men’s Nike Running Shoe",
+      "price": "₹7,814.00 ",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/tJFcvGRF/shoes-5.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Nike",
+      "warranty": 1
+    },
+    {
+      "id": 6,
+      "productName": "Nike mens Nike Air Max 270 React Se Running Shoe",
+      "categoryId": 3,
+      "description": "Latest Men’s Nike Running Shoe",
+      "price": "₹7,074 - ₹10,917",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/mrGKMDbB/shoes-6.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Nike",
+      "warranty": 1
+    },
+    {
+      "id": 7,
+      "productName": "Nike Men's Court Vision Lo Nn Leather Sneaker",
+      "categoryId": 3,
+      "description": "Latest Men’s Nike Running Shoe",
+      "price": "₹2,749.00 - ₹4,990.00",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/1tNQcdkZ/shoes-7.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Nike",
+      "warranty": 1
+    },
+    {
+      "id": 8,
+      "productName": "Nike Men's Downshifter 7 (GS) Gray Running Shoes (869969), 3 UK (3.5 us)",
+      "categoryId": 2,
+      "description": "Latest Men’s Nike Running Shoe",
+      "price": "₹2,084",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/PfPKXwD9/shoes-8.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Nike",
+      "warranty": 1
+    },
+    {
+      "id": 9,
+      "productName": "Nike Men's Blue LITEFORCE III Casual Shoes -7 UK (41 EU) (8 US) (669593-403)",
+      "categoryId": 1,
+      "description": "Latest Men’s Nike Running Shoe",
+      "price": "₹1,809",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/tTP36hz4/shoes-9.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Nike",
+      "warranty": 1
+    },
+    {
+      "id": 11,
+      "productName": "Nike Air Force 1 High '07 LV8 Vintage",
+      "categoryId": " 1",
+      "description": "Colour Shown: White/Grey Fog/Coconut Milk/Light Chocolate Style: DM0209-101",
+      "price": "₹10,727",
+      "is_available": "Yes",
+      "productImg": "https://i.postimg.cc/Y2gdsg54/shoes-11.webp",
+      "rating": "4.9",
+      "review": 150,
+      "vendor_name": "Nike",
+      "warranty": "1"
+    }
+  ]
+}
